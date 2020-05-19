@@ -1,0 +1,30 @@
+.App {
+    background-color: dimgray;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.ScoreCard {
+    background-image: url('Yahtzee.png');
+    background-size: cover;
+    background-color: chocolate;
+    height: 700px;
+    width: 500px;
+}
+
+.Scores {
+    position: relative;
+    top: 169.5px;
+    left: 222.5px;
+    margin-bottom: 2.5px;
+}
+
+.Input {
+    width: 30px;
+    height: 13px;
+    text-align: center;
+    outline: none;
+}
