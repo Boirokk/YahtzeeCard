@@ -1,0 +1,46 @@
+.Card {
+    background-size: cover;
+    background-color: chocolate;
+    height: 700px;
+    width: 500px;
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+
+}
+
+.Score {
+  background-color: antiquewhite;
+}
+
+.Center {
+
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0 , -50%);
+
+}
+
+.Input {
+    width: 30px;
+    height: 13px;
+    text-align: center;
+    outline: none;
+}
+
+.RowOne {
+    font-size: .7rem;
+    position: relative;
+    top: 50%;
+    transform: translate(0 , -50%);
+}
+
+.Howtoscore {
+    font-size: .4rem;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0 , -50%);
+}

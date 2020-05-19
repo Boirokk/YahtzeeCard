@@ -5,6 +5,7 @@
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
+
 }
 
 .ScoreCard {
@@ -15,16 +16,24 @@
     width: 500px;
 }
 
-.Scores {
+.UpperScores {
     position: relative;
     top: 169.5px;
     left: 222.5px;
     margin-bottom: 2.5px;
 }
 
+.LowerScores {
+    position: relative;
+    top: 192.5px;
+    left: 222.5px;
+    margin-bottom: 2.5px;
+}
+
 .Input {
-    width: 30px;
-    height: 13px;
+
+    /*width: 30px;*/
+    /*height: 13px;*/
     text-align: center;
     outline: none;
 }
